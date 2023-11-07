@@ -42,12 +42,12 @@ public class Huron : MonoBehaviour
         if (_razasValidas.Contains(raza))
         {
             _raza = raza;
-          //  controlJuego.avisoNoTipo.text = "";
+            controlJuego.avisoNoTipo.text = "";
         }
         else
         {
             Debug.Log("Raza no valida para hurones");
-           // controlJuego.avisoNoTipo.text = "No existe este tipo de hurón.";
+            controlJuego.avisoNoTipo.text = "No existe este tipo de hurón.";
         }
     }
     //ENCAPSULATION
@@ -116,7 +116,7 @@ public class Huron : MonoBehaviour
 
         if (other.gameObject.GetComponent<IDaño>() != null)
         {
-           objeto.HacerDaño(_dañoGolpe);
-       }
+            objeto.HacerDaño(_dañoGolpe);
+        }
     }
 }

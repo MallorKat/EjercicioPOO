@@ -24,25 +24,25 @@ public class ControlJuego : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      //  textoJugador.text = DatosJuego.Instance.nombreJugador;
+        textoJugador.text = DatosJuego.Instance.nombreJugador;
 
         if (DatosJuego.Instance.pochi == 1)
         {
             Trasto.SetActive(true);
             miHuron = GameObject.Find("Trasto").GetComponent<Trasto>();
-           // textoHuron.text = "Trasto";
+            textoHuron.text = "Trasto";
         }
         if (DatosJuego.Instance.pochi == 2)
         {
             Popi.SetActive(true);
             miHuron = GameObject.Find("Popi").GetComponent<Popi>();
-          //  textoHuron.text = "Popita";
+            textoHuron.text = "Popita";
         }
         if (DatosJuego.Instance.pochi == 3)
         {
             Milky.SetActive(true);
             miHuron = GameObject.Find("Milky").GetComponent<Milky>();
-          //  textoHuron.text = "MilkyWay";
+            textoHuron.text = "MilkyWay";
         }
     }
     void Update()
@@ -80,6 +80,6 @@ public class ControlJuego : MonoBehaviour
     void ImprimirTipo()
     {
         print("mi Huron es: " + miHuron.GetRaza());
-     //   textoGetSet.text = "Tengo un hurón " + miHuron.GetRaza();
+        textoGetSet.text = "Tengo un hurón " + miHuron.GetRaza();
     }
 }

@@ -16,13 +16,13 @@ public class Menu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
-    public void IntroducirNombreJugador(string jugador)
+    void IntroducirNombreJugador(string jugador)
     {
         DatosJuego.Instance.nombreJugador = jugador;
         hayNombre = true;
     }
 
-   public void Jugar(int pochi)
+    void Jugar(int pochi)
     {
         if (hayNombre == true)
         {

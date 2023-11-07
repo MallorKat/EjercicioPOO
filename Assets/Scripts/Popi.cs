@@ -9,6 +9,6 @@ public class Popi : Huron
     protected override void AtaqueEspecial()
     {
         Debug.Log("Popita acelera a gran velocidad.");
-     //   controlJuego.ataqueEspecial.text = "Popita acelera a gran velocidad.";
+        controlJuego.ataqueEspecial.text = "Popita acelera a gran velocidad.";
     }
 }

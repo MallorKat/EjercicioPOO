@@ -9,7 +9,7 @@ public class Milky : Huron
     protected override void AtaqueEspecial()
     {
         Debug.Log("Milky suelta po po mientras avanza.");
-      //  controlJuego.ataqueEspecial.text = "Milky suelta po po mientras avanza.";
+        controlJuego.ataqueEspecial.text = "Milky suelta po po mientras avanza.";
     }
 }
 

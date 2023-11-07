@@ -9,7 +9,7 @@ public class Trasto : Huron
     protected override void AtaqueEspecial()
     {
         Debug.Log("Trasto trepa por varias superficies verticales.");
-      //  controlJuego.ataqueEspecial.text = "Trasto trepa por varias superficies verticales.";
+        controlJuego.ataqueEspecial.text = "Trasto trepa por varias superficies verticales.";
     }
 }
 
