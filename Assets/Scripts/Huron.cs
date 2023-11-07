@@ -112,11 +112,11 @@ public class Huron : MonoBehaviour
             huronEnSuelo = true;
         }
 
-        //IDaño objeto = other.gameObject.GetComponent<IDaño>();
+        IDaño objeto = other.gameObject.GetComponent<IDaño>();
 
-        //if (other.gameObject.GetComponent<IDaño>() != null)
-        //{
-        //    objeto.HacerDaño(_dañoGolpe);
-        //}
+        if (other.gameObject.GetComponent<IDaño>() != null)
+        {
+           objeto.HacerDaño(_dañoGolpe);
+       }
     }
 }
