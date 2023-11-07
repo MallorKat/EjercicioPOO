@@ -24,26 +24,26 @@ public class ControlJuego : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //textoJugador.text = DatosJuego.Instance.nombreJugador;
+      //  textoJugador.text = DatosJuego.Instance.nombreJugador;
 
-        //if (DatosJuego.Instance.pochi == 1)
-        //{
-        //    Trasto.SetActive(true);
+        if (DatosJuego.Instance.pochi == 1)
+        {
+            Trasto.SetActive(true);
             miHuron = GameObject.Find("Trasto").GetComponent<Trasto>();
-        //    textoHuron.text = "Trasto";
-        //}
-        //if (DatosJuego.Instance.pochi == 2)
-        //{
-        //    Popi.SetActive(true);
-        //    miHuron = GameObject.Find("Popi").GetComponent<Popi>();
-        //    textoHuron.text = "Popita";
-        //}
-        //if (DatosJuego.Instance.pochi == 3)
-        //{
-        //    Milky.SetActive(true);
-        //    miHuron = GameObject.Find("Milky").GetComponent<Milky>();
-        //    textoHuron.text = "MilkyWay";
-        //}
+           // textoHuron.text = "Trasto";
+        }
+        if (DatosJuego.Instance.pochi == 2)
+        {
+            Popi.SetActive(true);
+            miHuron = GameObject.Find("Popi").GetComponent<Popi>();
+          //  textoHuron.text = "Popita";
+        }
+        if (DatosJuego.Instance.pochi == 3)
+        {
+            Milky.SetActive(true);
+            miHuron = GameObject.Find("Milky").GetComponent<Milky>();
+          //  textoHuron.text = "MilkyWay";
+        }
     }
     void Update()
     {

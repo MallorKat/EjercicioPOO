@@ -2025,7 +2025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3139998980828843321, guid: bf2b2fe6b1f1b274e9ca1f30501b53ef, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4979416771900647390, guid: bf2b2fe6b1f1b274e9ca1f30501b53ef, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2206,9 +2206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 397eb51b7143a6a40a32292660e7922e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Milky: {fileID: 0}
-  Trasto: {fileID: 0}
-  Popi: {fileID: 0}
+  Milky: {fileID: 345576909}
+  Trasto: {fileID: 36712052}
+  Popi: {fileID: 1763359219}
   textoHuron: {fileID: 0}
   textoGetSet: {fileID: 0}
   textoJugador: {fileID: 0}

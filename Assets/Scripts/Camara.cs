@@ -32,18 +32,18 @@ public class Camara : MonoBehaviour
         // He tenido que poner el UnityEngine, es posible que si se compila no funcione esta linea bien.
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
 
-        //if (DatosJuego.Instance.pochi == 1)
-        //{
+        if (DatosJuego.Instance.pochi == 1)
+        {
             seguirH = seguirT;
-        //}
-        //if (DatosJuego.Instance.pochi == 2)
-        //{
-        //    seguirH = seguirP;
-        //}
-        //if (DatosJuego.Instance.pochi == 3)
-        //{
-        //    seguirH = seguirM;
-        //}
+        }
+        if (DatosJuego.Instance.pochi == 2)
+        {
+            seguirH = seguirP;
+        }
+        if (DatosJuego.Instance.pochi == 3)
+        {
+            seguirH = seguirM;
+        }
     }
     void Update()
     {
